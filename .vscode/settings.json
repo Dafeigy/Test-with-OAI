@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "channel_matrx.pb-c.h": "c",
+        "tcp.h": "c"
+    }
+}

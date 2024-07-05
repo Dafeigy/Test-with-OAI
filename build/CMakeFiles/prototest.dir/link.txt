@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/prototest.dir/test.c.o CMakeFiles/prototest.dir/protobuf-c/protobuf-c/protobuf-c.c.o CMakeFiles/prototest.dir/MESSAGES/channel_matrx.pb-c.c.o -o prototest 

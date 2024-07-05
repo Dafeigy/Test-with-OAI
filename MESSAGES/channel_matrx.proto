@@ -1,0 +1,19 @@
+syntax = "proto2";
+package NRMatrix;
+
+message UE_SRS_PACK{
+    repeated NR_SRS_PACK ue_info= 3;
+}
+
+message NR_SRS_PACK{
+    required int32 ue_id = 2;
+    repeated NR_SRS_INFO matrix = 1;
+}
+message NR_SRS_INFO{
+    repeated RESULT prb_item  = 1;
+}
+// RESULT存放的其实是和信道相关的复数结构，由于以上指标都是复数形式所以就统一命名为RESULT
+message RESULT {
+    required int32 image = 1;
+    required int32 real  = 2;
+}
